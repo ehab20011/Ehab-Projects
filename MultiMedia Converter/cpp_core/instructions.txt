@@ -1,0 +1,23 @@
+
+
+Open the command prompt (cmd) on your computer.
+
+Navigate to the directory where your .exe file and input .mp4 file are located using the cd (change directory) command. In your case, you mentioned they are both in:
+
+C:\Users\username\Desktop\MultiMedia Converter\cpp_core\src
+You can navigate to that directory like this:
+
+
+cd C:\Users\username\Desktop\MultiMedia Converter\cpp_core\src
+
+Once you're in the correct directory, you can run the file.exe without specifying the full path. Here's an example command:
+
+
+file input.mp4 mp3 output.mp3
+
+file is the name of your C++ executable (file.exe).
+input.mp4 is the name of your input .mp4 file.
+mp3 is the target format.
+output.mp3 is the name of the output file you want to create.
+
+Make sure you're running the command from the correct directory (the one containing your file.exe and input.mp4 files). If you encounter any issues, ensure that the file names and formats are correct, and there are no typos in the command.
